@@ -67,6 +67,40 @@ h6 {
   opacity: 1;
 }
 
+
+
+.chat-with-us {
+  position: fixed;
+  opacity: 1;
+  left: 15px;
+  bottom: 15px;
+  z-index: 997;
+  background:   #44D796;;
+  /* width: 160px; */
+  height: 50px;
+  border-radius: 40px;
+  transition: all 0.4s;
+  color: white;
+  padding: 12px;
+}
+
+.chat-with-us i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+  margin-right: 10px;
+}
+
+.chat-with-us:hover {
+  background: #3baa78;
+  color: #fff;
+}
+
+.chat-with-us.active {
+  visibility: visible;
+  opacity: 1;
+}
+
 /*--------------------------------------------------------------
 # Disable AOS delay on mobile
 --------------------------------------------------------------*/
