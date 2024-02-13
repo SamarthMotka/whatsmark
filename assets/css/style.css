@@ -140,7 +140,7 @@ h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-size: 20px;
+  font-size: 17.5px;
   font-weight: 600;
   color: #555555;
   white-space: nowrap;
@@ -870,7 +870,7 @@ section {
 --------------------------------------------------------------*/
 .pricing .box {
   padding: 20px;
-  background: #f9f9f9;
+  background: #D9EDDF;
   text-align: center;
   border-radius: 8px;
   position: relative;
@@ -902,7 +902,7 @@ section {
 }
 
 .pricing .box h4 span {
-  color: #bababa;
+  color: black;
   font-size: 16px;
   font-weight: 300;
 }
@@ -927,7 +927,7 @@ section {
 }
 
 .pricing .box ul .na {
-  color: #ccc;
+  color: black;
   text-decoration: line-through;
 }
 
@@ -954,6 +954,10 @@ section {
   color: #fff;
 }
 
+.box:hover{
+  border-color: #44D796;
+  background-color:#c9e1d0 ;
+}
 .pricing .recommended {
   border-color: #44D796;
 }
@@ -1026,7 +1030,7 @@ section {
   font-size: 18px;
   display: inline-block;
   background: #fff;
-  color: #3498db;
+  color: #44D796;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
