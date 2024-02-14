@@ -250,6 +250,43 @@
   });
 
   /**
+   * chat with us 
+   */
+  document.addEventListener('DOMContentLoaded', function() {
+    // Get references to the button and the div
+    setTimeout(function() {
+      // Show the  modal
+      document.getElementById('chat-with-us-div-id').classList.remove('show');
+    }, 5000);
+  });
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var myButton = document.getElementById('chat-with-us-id');
+    var myDiv = document.getElementById('chat-with-us-div-id');
+    var closebtn= document.getElementById('close-btn-id');
+
+  
+    // Add a click event listener to the button
+    myButton.addEventListener('click', function() {
+      // Toggle the 'show' class on the div
+      myDiv.classList.toggle('show');
+      myButton.classList.toggle('chat-change');
+
+
+    });
+    closebtn.addEventListener('click', function() {
+      // Toggle the 'show' class on the div
+      myDiv.classList.toggle('show');
+    });
+  });
+  
+
+
+
+
+
+
+  /**
    * Initiate Pure Counter 
    */
   new PureCounter();

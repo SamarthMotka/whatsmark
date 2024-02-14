@@ -83,6 +83,9 @@ h6 {
   color: white;
   padding: 12px;
 }
+.chat-change{
+  margin-right: 0px;
+}
 
 .chat-with-us i {
   font-size: 28px;
@@ -100,6 +103,128 @@ h6 {
   visibility: visible;
   opacity: 1;
 }
+
+
+/*--------------------------------------------------------------
+# chat-with-us
+--------------------------------------------------------------*/
+.show{
+  visibility: hidden;
+}
+.chat-with-us-div{
+  width: 250px;
+  height: 250px;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* background: #18d26e; */
+  position: fixed;
+  bottom: 110px;
+  left: 20px;
+  z-index: 2000;
+  background-image: url('https://th.bing.com/th/id/OIP.N9SFbDyMWvHpz1tHckZFtwHaN2?w=184&h=341&c=7&r=0&o=5&pid=1.7');
+  
+}
+.chat-us-topbar{
+  width: 100%;
+  height: 60px;
+  border-radius: 6px 6px 0 0;
+  background-color:#0A5F54 ;
+  display: flex;
+  flex-direction: row;
+}
+.chat-logo{
+width: 60px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.chat-logo img{
+  height: 40px;
+  width: 40px;
+}
+.chat-us-mid{
+  width: 150px;
+  margin:auto 0;
+  color: white;
+  font-weight: 600;
+}
+.chat-us-o{
+  font-size: small;
+  font-weight:normal ;
+}
+.chat-us-close{
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.chat-us-close i{
+  cursor: pointer;
+  font-size: 18px;
+  color: white;
+}
+.chat-us-main{
+  height: 150px;
+  width: 100%;
+  background-size: cover;
+  /* background-color: #E4E3DD; */
+  background-position: center;
+  background-attachment:fixed ;
+}
+.chat-us-text{
+  width: 80%;
+  /* height: 80px; */
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 6px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px;
+  
+}
+.w{
+  color: #3c3c3c;
+  font-weight: 600;
+}
+.ch{
+  margin-top: 10px;
+  font-size: 12px;
+}
+.chat-us-bottom{
+  width: 100%;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 245, 227);
+  border-radius: 0 0 6px 6px;
+  
+}
+.chat-us-btn{
+  width: 100px;
+  height: 30px;
+  background-color: #3baa78;
+  border-radius:40px ;
+  
+  
+}
+.chat-us-btn a{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  margin: 3px 0;
+  color: white;
+  cursor: pointer;
+}
+.chat-us-power{
+  font-size: 10px;
+}
+
 
 /*--------------------------------------------------------------
 # Disable AOS delay on mobile
