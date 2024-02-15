@@ -678,7 +678,7 @@ section {
 
 .clients img {
   width: 50%;
-  filter: grayscale(100);
+  /* filter: grayscale(100); */
   transition: all 0.4s ease-in-out;
   display: inline-block;
   padding: 10px 0;
@@ -687,6 +687,12 @@ section {
 .clients img:hover {
   filter: none;
   transform: scale(1.1);
+}
+.clients h1{
+  color: #111;
+}
+.clients h3{
+  font-weight: 100;
 }
 
 @media (max-width: 768px) {
@@ -708,6 +714,7 @@ section {
   font-weight: 600;
   font-size: 26px;
 }
+
 
 .about .content ul {
   list-style: none;
